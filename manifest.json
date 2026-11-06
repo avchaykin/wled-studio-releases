@@ -1,6 +1,22 @@
 {
- "latest": "0.2.0",
+ "latest": "0.2.1",
  "releases": [
+  {
+   "version": "0.2.1",
+   "date": "2026-11-06",
+   "notes": [
+    "Firmware updates retry a dropped upload (weak Wi-Fi), and a failed device can be updated again"
+   ],
+   "source": "https://github.com/avchaykin/wled-studio/tree/v0.2.1",
+   "builds": {
+    "ESP32": {
+     "file": "fw/wled-studio-0.2.1-esp32dev.bin",
+     "size": 1428208,
+     "sha256": "6e25be1df21db92da1ea49b6af12f8a5d060f380b6ef8cee1b679f957e8441c0",
+     "env": "esp32dev"
+    }
+   }
+  },
   {
    "version": "0.2.0",
    "date": "2026-11-06",
