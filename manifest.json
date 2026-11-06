@@ -1,4 +1,25 @@
 {
- "latest": null,
- "releases": []
+ "latest": "0.2.0",
+ "releases": [
+  {
+   "version": "0.2.0",
+   "date": "2026-11-06",
+   "notes": [
+    "Presets live in the Lights library: save, apply, update, rename, delete",
+    "Palettes in alphabetical order with favourites, and a palette editor for custom palettes",
+    "Solid colour is its own mode; effects are chosen from a dropdown with filters",
+    "Firmware updates from Settings, with release notes",
+    "Devices page: all controllers on the network, their versions, updates, presets and effects; copy presets (with their scripts) between devices"
+   ],
+   "source": "https://github.com/avchaykin/wled-studio/tree/v0.2.0",
+   "builds": {
+    "ESP32": {
+     "file": "fw/wled-studio-0.2.0-esp32dev.bin",
+     "size": 1428080,
+     "sha256": "bf1be7a6979968785fe900347583b933a830548bc509d62d86b94224ffbef541",
+     "env": "esp32dev"
+    }
+   }
+  }
+ ]
 }
